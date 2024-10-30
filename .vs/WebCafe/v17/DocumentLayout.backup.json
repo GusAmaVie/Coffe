@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Downloads\\WebCafe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4E9CEF-75D0-4A79-B454-31C2F0E6434E}|WebCafe\\WebCafe.csproj|c:\\users\\dell\\downloads\\webcafe\\webcafe\\views\\cart\\pagamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA4E9CEF-75D0-4A79-B454-31C2F0E6434E}|WebCafe\\WebCafe.csproj|solutionrelative:webcafe\\views\\cart\\pagamento.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4E9CEF-75D0-4A79-B454-31C2F0E6434E}|WebCafe\\WebCafe.csproj|c:\\users\\dell\\downloads\\webcafe\\webcafe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA4E9CEF-75D0-4A79-B454-31C2F0E6434E}|WebCafe\\WebCafe.csproj|solutionrelative:webcafe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4E9CEF-75D0-4A79-B454-31C2F0E6434E}|WebCafe\\WebCafe.csproj|c:\\users\\dell\\downloads\\webcafe\\webcafe\\views\\cart\\boleto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA4E9CEF-75D0-4A79-B454-31C2F0E6434E}|WebCafe\\WebCafe.csproj|solutionrelative:webcafe\\views\\cart\\boleto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4E9CEF-75D0-4A79-B454-31C2F0E6434E}|WebCafe\\WebCafe.csproj|c:\\users\\dell\\downloads\\webcafe\\webcafe\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4E9CEF-75D0-4A79-B454-31C2F0E6434E}|WebCafe\\WebCafe.csproj|solutionrelative:webcafe\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4E9CEF-75D0-4A79-B454-31C2F0E6434E}|WebCafe\\WebCafe.csproj|c:\\users\\dell\\downloads\\webcafe\\webcafe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA4E9CEF-75D0-4A79-B454-31C2F0E6434E}|WebCafe\\WebCafe.csproj|solutionrelative:webcafe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4E9CEF-75D0-4A79-B454-31C2F0E6434E}|WebCafe\\WebCafe.csproj|c:\\users\\dell\\downloads\\webcafe\\webcafe\\views\\home\\esquecisenha.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA4E9CEF-75D0-4A79-B454-31C2F0E6434E}|WebCafe\\WebCafe.csproj|solutionrelative:webcafe\\views\\home\\esquecisenha.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4E9CEF-75D0-4A79-B454-31C2F0E6434E}|WebCafe\\WebCafe.csproj|c:\\users\\dell\\downloads\\webcafe\\webcafe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4E9CEF-75D0-4A79-B454-31C2F0E6434E}|WebCafe\\WebCafe.csproj|solutionrelative:webcafe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA4E9CEF-75D0-4A79-B454-31C2F0E6434E}|WebCafe\\WebCafe.csproj|c:\\users\\dell\\downloads\\webcafe\\webcafe\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BA4E9CEF-75D0-4A79-B454-31C2F0E6434E}|WebCafe\\WebCafe.csproj|solutionrelative:webcafe\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\WebCafe\\WebCafe\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "WebCafe\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\WebCafe\\WebCafe\\Controllers\\CartController.cs",
+              "RelativeToolTip": "WebCafe\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAkwJAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:36:55.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pagamento.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\WebCafe\\WebCafe\\Views\\Cart\\Pagamento.cshtml",
+              "RelativeDocumentMoniker": "WebCafe\\Views\\Cart\\Pagamento.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\WebCafe\\WebCafe\\Views\\Cart\\Pagamento.cshtml",
+              "RelativeToolTip": "WebCafe\\Views\\Cart\\Pagamento.cshtml",
+              "ViewState": "AgIAALwAAAAAAAAAAAAkwNEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T22:28:54.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Boleto.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\WebCafe\\WebCafe\\Views\\Cart\\Boleto.cshtml",
+              "RelativeDocumentMoniker": "WebCafe\\Views\\Cart\\Boleto.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\WebCafe\\WebCafe\\Views\\Cart\\Boleto.cshtml",
+              "RelativeToolTip": "WebCafe\\Views\\Cart\\Boleto.cshtml",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-30T22:26:36.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\WebCafe\\WebCafe\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebCafe\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\WebCafe\\WebCafe\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebCafe\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T22:28:21.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\WebCafe\\WebCafe\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebCafe\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\WebCafe\\WebCafe\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebCafe\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAkwDwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T22:26:06.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\WebCafe\\WebCafe\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebCafe\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\WebCafe\\WebCafe\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebCafe\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwDEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T22:24:29.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\WebCafe\\WebCafe\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebCafe\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\WebCafe\\WebCafe\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "WebCafe\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAawHcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T22:22:29.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EsqueciSenha.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Downloads\\WebCafe\\WebCafe\\Views\\Home\\EsqueciSenha.cshtml",
+              "RelativeDocumentMoniker": "WebCafe\\Views\\Home\\EsqueciSenha.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Downloads\\WebCafe\\WebCafe\\Views\\Home\\EsqueciSenha.cshtml",
+              "RelativeToolTip": "WebCafe\\Views\\Home\\EsqueciSenha.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T22:19:30.548Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
