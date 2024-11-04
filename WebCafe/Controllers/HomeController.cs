@@ -48,5 +48,9 @@ namespace WebCafe.Controllers
         {
             return View();
         }
+        public IActionResult MinhaConta()
+        {
+            return View();
+        }
     }
 }
