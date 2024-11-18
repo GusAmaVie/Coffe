@@ -1,0 +1,157 @@
+﻿@{
+    ViewData["Title"] = "Meu Perfil";
+}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Lateral</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .meu-perfil-container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .perfil-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .perfil-imagem {
+            margin-right: 20px;
+        }
+
+        .perfil-circulo {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #a0522d; /* Cor marrom */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .perfil-inicial {
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .perfil-info h2 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .perfil-info p {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #666;
+        }
+
+        .perfil-titulo {
+            font-size: 28px;
+            color: #444;
+            margin: 20px 0;
+        }
+
+        .perfil-botoes {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .btn-perfil {
+            background-color: #a0522d; /* Cor marrom */
+            color: white;
+            padding: 10px 20px;
+            margin: 10px 0;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            width: 200px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+            .btn-perfil:hover {
+                background-color: #8b4513; /* Tom mais escuro */
+            }
+    </style>
+</head>
+<body>
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="@Url.Action("MeuPerfil", "Home")">Meu Perfil</a>
+        <a href="@Url.Action("Login", "Home")">Entrar ou Cadastre-se</a>
+        <a href="/meus-pedidos">Meus Pedidos</a>
+        <a href="@Url.Action("SobreNos", "Home")">Sobre Nós</a>
+        <a href="@Url.Action("Portfolio", "Home")">Portfólio</a>
+        <a href="@Url.Action("NossaMissao", "Home")">Nossa Missão</a>
+        <a href="@Url.Action("DuvidasFrequentes", "Home")">Dúvidas Frequentes</a>
+        <a href="@Url.Action("FaleConosco", "Home")">Fale Conosco</a>
+    </div>
+
+    <div id="main">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-brown">
+            <a class="navbar-brand" href="javascript:void(0)" onclick="openNav()">Menu</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="navbar-brand" href="/">
+                            <!-- <a class="nav-link" href="/">Coffee Tech</a> -->
+                            <img src="/imagens/logo-coffeetech.png" alt="Fazenda Urbana Café" style="height: 40px;">
+                        </a>
+                    </li>
+                    <!-- Outras opções -->
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="meu-perfil-container">
+        <!-- Informações do Cliente -->
+        <div class="perfil-header">
+            <div class="perfil-imagem">
+                <div class="perfil-circulo">
+                    <span class="perfil-inicial">C</span>
+                </div>
+            </div>
+            <div class="perfil-info">
+                <h2>Cliente</h2>
+                <p>Cliente@gmail.com</p>
+            </div>
+        </div>
+
+        <!-- Título -->
+        <h1 class="perfil-titulo">Meu Perfil</h1>
+
+        <!-- Botões -->
+        <div class="perfil-botoes">
+            <a class="btn-perfil" href="@Url.Action("MeusPedidos", "Home")">Meus Pedidos</a>
+            <a class="btn-perfil" href="@Url.Action("MinhaConta", "Home")">Meus Dados</a>
+            <a class="btn-perfil" href="@Url.Action("Cartoes", "Home")">Cartões</a>
+            <a class="btn-perfil" href="@Url.Action("Enderecos", "Home")">Endereços</a>
+        </div>
+    </div>
+
+        <!-- JavaScript para abrir/fechar o menu lateral -->
+        <script>
+            function openNav() {
+                document.getElementById("mySidebar").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidebar").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+            }
+        </script>
+    </body>
+</html>
