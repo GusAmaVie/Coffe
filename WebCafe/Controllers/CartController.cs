@@ -142,6 +142,24 @@ namespace WebCafe.Controllers
         }
         public IActionResult Boleto()
         {
+            var carrinho = GetCartItems(); // Obtém os itens do carrinho
+            var totalCarrinho = carrinho.Sum(item => item.Price * item.Quantity) + 50; // Soma o total com frete
+
+            ViewData["DataDocumento"] = DateTime.Now.ToString("dd/MM/yyyy");
+            ViewData["DataVencimento"] = DateTime.Now.AddDays(4).ToString("dd/MM/yyyy");
+            ViewData["ValorTotal"] = totalCarrinho; // Passa o valor total para a view
+            return View();
+        }
+        public IActionResult NotaFiscal(int id)
+        {
+            var carrinho = GetCartItems(); // Obtém os itens do carrinho
+            var totalCarrinho = carrinho.Sum(item => item.Price * item.Quantity) + 50; // Soma o total com frete
+
+            ViewData["DataNota"] = DateTime.Now.ToString("dd/MM/yyyy");
+            ViewData["ValorTotal"] = totalCarrinho; // Passa o valor total para a view
+            ViewData["ItensCount"] = carrinho.Count(); // Quantidade de itens no carrinho
+            ViewData["PedidoId"] = id; // Passa o ID do pedido, se necessário
+
             return View();
         }
 
