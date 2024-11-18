@@ -1,0 +1,35 @@
+﻿<div class="nota-fiscal">
+    <div class="headerNotaFiscal">
+        <div class="logo-nomeNotaFiscal">
+            <img src="~/imagens/logo-coffeetech.png" alt="Logo Coffee Tech" style="width: 50px;">
+            <span>Coffee Tech</span>
+        </div>
+        <div class="via-numero">
+            <strong>VIA DO CLIENTE N°1</strong>
+        </div>
+    </div>
+
+    <h2>NOTA FISCAL</h2>
+
+    <div class="detalhesNotaFiscal">
+        <p><strong>Realizado em:</strong> @ViewData["DataNota"]</p>
+        <p><strong>Valor (@ViewData["ItensCount"] itens):</strong> R$ @ViewData["ValorTotal"]</p>
+    </div>
+
+    <p>************0001</p>
+
+    <hr />
+
+    <div class="info-enderecoNotaFiscal">
+        <div class="empresa">
+            <p>COFFEE TECH</p>
+            <p>1331 Estr. Velha de Itapevi II</p>
+            <p>Cotia - São Paulo/SP</p>
+        </div>
+        <div class="cliente">
+            <p>CPF: 000.000.000-00</p>
+            <p>SNPOS: 0000000000</p>
+        </div>
+    </div>
+</div>
+
