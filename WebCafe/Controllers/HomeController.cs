@@ -52,5 +52,18 @@ namespace WebCafe.Controllers
         {
             return View();
         }
+        public IActionResult Cartoes()
+        {
+            return View();
+        }
+        public IActionResult Endereços()
+        {
+            return View();
+        }
+        public IActionResult MeuPerfil()
+        {
+            return View();
+        }
+    }
     }
 }
